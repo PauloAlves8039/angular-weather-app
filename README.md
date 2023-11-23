@@ -1,27 +1,47 @@
-# WeatherApp
+<h1 align="center">:sunny: :umbrella: WeatherApp :cloud: :snowflake:</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+<p align="center">
+  <a href="https://angular.io/"><img alt="Angular" src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" /></a>
+</p>
 
-## Development server
+## :computer: Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Aplicação web responsável por informar o clima de uma cidade específica informada pelo usuário, o código fonte do projeto foi baseado no curso [Formação Angular (v15+) - 2023](https://www.udemy.com/course/curso-de-angular-15-do-iniciante-ao-especialista/). 
 
-## Code scaffolding
+## :camera: Screenshot
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center"> <img src="https://github.com/PauloAlves8039/angular-weather-app/blob/master/src/assets/screenshot.PNG"/></p>
 
-## Build
+## :blue_book: Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Essa aplicação permite ao usuário:
 
-## Running unit tests
+- Digitar o nome da `cidade` no campo de pesquisa.
+- Informar os valores das `temperaturas(°C)`: `mínima` e `máxima`.
+- Mostrar o valor da `humidade(%)`.
+- Exibir o valor da velocidade do `vento(km/h)`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## :white_check_mark: Decisões Técnicas
 
-## Running end-to-end tests
+- Procurei manter a mesma estrutura de projeto que foi apresentada durante as aulas, adicionei o uso da biblioteca `Animate.css` para dar mais ilustração na aplicação.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ✔️ Recursos Utilizados
 
-## Further help
+- ``Node.js v18.18.1``
+- ``NPM v10.2.0``
+- ``Angular CLI v16.2.6``
+- ``Angular Fontawesome v0.13.0``
+- ``OpenWeather``
+- ``Animate.css``
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## :floppy_disk: Clonar Repositório
+
+```bash
+git clone https://github.com/PauloAlves8039/angular-weather-app.git
+```
+:eyes: `Observação` : na pasta principal do projeto basta abrir o prompt de comando e executar `npm install` para instalar as todas dependências, após isso execute `npm start` para execução da aplicação.
+
+## :boy: Author
+
+<a href="https://github.com/PauloAlves8039"><img src="https://avatars.githubusercontent.com/u/57012714?v=4" width=70></a>
+[Paulo Alves](https://github.com/PauloAlves8039)
