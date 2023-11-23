@@ -9,7 +9,7 @@
       *ngIf="weatherDatasInput.main.temp <= 15"
     />
 
-    <div class="weather-data">
+    <div class="weather-data animation-fade-in-up-2s">
       <div class="location">{{ weatherDatasInput.name }}</div>
       <div class="temperature">
         {{ weatherDatasInput.main.temp | number : "1.0-0" }}ºC
@@ -22,45 +22,45 @@
 
     <div class="more-info-container">
       <div class="info-block">
-        <div class="info-block-label">
+        <div class="info-block-label animation-fade-in-up-2s">
           <fa-icon size="lg" [icon]="minTemperatureIcon"></fa-icon>
           <span>Mínima</span>
         </div>
 
-        <div class="info-block-value">
+        <div class="info-block-value animation-fade-in-up-2s">
           {{ weatherDatasInput.main.temp_min | number : "1.0-0" }} ºC
         </div>
       </div>
 
       <div class="info-block">
-        <div class="info-block-label">
+        <div class="info-block-label animation-fade-in-up-2s">
           <fa-icon size="lg" [icon]="maxTemperatureIcon"></fa-icon>
           <span>Máxima</span>
         </div>
 
-        <div class="info-block-value">
+        <div class="info-block-value animation-fade-in-up-2s">
           {{ weatherDatasInput.main.temp_max | number : "1.0-0" }} ºC
         </div>
       </div>
 
       <div class="info-block">
-        <div class="info-block-label">
+        <div class="info-block-label animation-fade-in-up-2s">
           <fa-icon size="lg" [icon]="humidityIcon"></fa-icon>
           <span>Humidade</span>
         </div>
 
-        <div class="info-block-value">
+        <div class="info-block-value animation-fade-in-up-2s">
           {{ weatherDatasInput.main.humidity }}%
         </div>
       </div>
 
       <div class="info-block">
-        <div class="info-block-label">
+        <div class="info-block-label animation-fade-in-up-2s">
           <fa-icon size="lg" [icon]="windIcon"></fa-icon>
           <span>Vento</span>
         </div>
 
-        <div class="info-block-value">
+        <div class="info-block-value animation-fade-in-up-2s">
           {{ weatherDatasInput.wind.speed }} km/h
         </div>
       </div>
